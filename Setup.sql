@@ -1,4 +1,4 @@
-USE goodburger;
+USE maindb7;
 
 -- CREATE TABLE burgers
 -- (
@@ -8,6 +8,16 @@ USE goodburger;
 --   price DECIMAL(6 , 2) NOT NULL,
 
 --   PRIMARY KEY (id)
+-- );
+
+-- CREATE TABLE snacks
+-- (
+--     id INT AUTO_INCREMENT,
+--     name VARCHAR(255) NOT NULL UNIQUE,
+--     description VARCHAR(255),
+--     price DECIMAL(6 , 2) NOT NULL,
+
+--     PRIMARY KEY (id)
 -- );
 
 -- DECIMAL( NUMS , NUMSPASTDEC)
